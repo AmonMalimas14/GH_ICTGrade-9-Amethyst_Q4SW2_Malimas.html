@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Minutes to seconds converter</h1>
+	<p>Minutes <input type="text" name="text" id="yourNo"></p>
+
+	<p><button onclick="timeConvert()">Calculate</button></p>
+
+	<p id="result"></p>
+
+  <script>function timeConvert() {
+      let num = document.getElementById('yourNo').value;
+		var seconds = Math.floor(num * 60);
+		 var minutes = num % 1;
+      document.getElementById("result").innerHTML = ""+ "<br>" + "( " + seconds + " seconds" + "  )";
+    }
+</script>
+<class="nav-item"><a class="nav-link" href="file:///Users/amon/Desktop/ICT%202223/ewgradfg.html">Click here to proceed on Seconds to minutes converter</a>
+<br>
+<class="nav-item"><a class="nav-link" href="file:///Users/amon/Desktop/ICT%202223/wfdb.html">Click here to proceed on Hours to minutes converter</a>
+<br>
+<class="nav-item"><a class="nav-link" href="file:///Users/amon/Desktop/ICT%202223/eqerw.html">Click here to proceed on Days to Hours converter</a>
+<br>
+
+
+
+</body>
+</html>
